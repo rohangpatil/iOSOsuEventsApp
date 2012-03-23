@@ -125,11 +125,9 @@
 		F35FD6A1151C46F600DF2971 /* iOSOsuEventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F35FD6E4151C4A2800DF2971 /* Initial View */,
 				F35FD6AA151C46F600DF2971 /* edu_osuAppDelegate.h */,
 				F35FD6AB151C46F600DF2971 /* edu_osuAppDelegate.m */,
-				F35FD6AD151C46F600DF2971 /* edu_osuViewController.h */,
-				F35FD6AE151C46F600DF2971 /* edu_osuViewController.m */,
-				F35FD6B0151C46F600DF2971 /* edu_osuViewController.xib */,
 				F35FD6A2151C46F600DF2971 /* Supporting Files */,
 			);
 			path = iOSOsuEventsApp;
@@ -173,6 +171,16 @@
 				F35FD6CC151C48BB00DF2971 /* ASIProgressDelegate.h */,
 			);
 			name = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		F35FD6E4151C4A2800DF2971 /* Initial View */ = {
+			isa = PBXGroup;
+			children = (
+				F35FD6AD151C46F600DF2971 /* edu_osuViewController.h */,
+				F35FD6AE151C46F600DF2971 /* edu_osuViewController.m */,
+				F35FD6B0151C46F600DF2971 /* edu_osuViewController.xib */,
+			);
+			name = "Initial View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
