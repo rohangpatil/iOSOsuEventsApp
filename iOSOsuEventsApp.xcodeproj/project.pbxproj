@@ -28,6 +28,16 @@
 		F35FD6DB151C491C00DF2971 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35FD6DA151C491C00DF2971 /* SystemConfiguration.framework */; };
 		F35FD6DD151C492500DF2971 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35FD6DC151C492500DF2971 /* MobileCoreServices.framework */; };
 		F35FD6DF151C493E00DF2971 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F35FD6DE151C493E00DF2971 /* libz.dylib */; };
+		F3CE5E7C151D040C00BD69F3 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CE5E7B151D040C00BD69F3 /* AppManager.m */; };
+		F3CE5E8C151D12AB00BD69F3 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3CE5E8B151D12AB00BD69F3 /* Background.jpg */; };
+		F3CE5E91151D135500BD69F3 /* twitter blue_button_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CE5E8D151D135500BD69F3 /* twitter blue_button_highlight.png */; };
+		F3CE5E92151D135500BD69F3 /* twitter blue_button-highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CE5E8E151D135500BD69F3 /* twitter blue_button-highlight@2x.png */; };
+		F3CE5E93151D135500BD69F3 /* twitter blue_button.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CE5E8F151D135500BD69F3 /* twitter blue_button.png */; };
+		F3CE5E94151D135500BD69F3 /* twitter blue_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CE5E90151D135500BD69F3 /* twitter blue_button@2x.png */; };
+		F3CE5E99151D18E200BD69F3 /* AllEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CE5E97151D18E200BD69F3 /* AllEvents.m */; };
+		F3CE5E9A151D18E200BD69F3 /* AllEvents.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CE5E98151D18E200BD69F3 /* AllEvents.xib */; };
+		F3CE5E9F151D1E2400BD69F3 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CE5E9E151D1E2400BD69F3 /* Event.m */; };
+		F3CE5EA7151D3FE000BD69F3 /* OOSL.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CE5EA6151D3FE000BD69F3 /* OOSL.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +80,19 @@
 		F35FD6DA151C491C00DF2971 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F35FD6DC151C492500DF2971 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		F35FD6DE151C493E00DF2971 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F3CE5E7A151D040C00BD69F3 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		F3CE5E7B151D040C00BD69F3 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		F3CE5E8B151D12AB00BD69F3 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		F3CE5E8D151D135500BD69F3 /* twitter blue_button_highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter blue_button_highlight.png"; sourceTree = "<group>"; };
+		F3CE5E8E151D135500BD69F3 /* twitter blue_button-highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter blue_button-highlight@2x.png"; sourceTree = "<group>"; };
+		F3CE5E8F151D135500BD69F3 /* twitter blue_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter blue_button.png"; sourceTree = "<group>"; };
+		F3CE5E90151D135500BD69F3 /* twitter blue_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter blue_button@2x.png"; sourceTree = "<group>"; };
+		F3CE5E96151D18E200BD69F3 /* AllEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllEvents.h; sourceTree = "<group>"; };
+		F3CE5E97151D18E200BD69F3 /* AllEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllEvents.m; sourceTree = "<group>"; };
+		F3CE5E98151D18E200BD69F3 /* AllEvents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllEvents.xib; sourceTree = "<group>"; };
+		F3CE5E9D151D1E2400BD69F3 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		F3CE5E9E151D1E2400BD69F3 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		F3CE5EA6151D3FE000BD69F3 /* OOSL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OOSL.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +148,9 @@
 		F35FD6A1151C46F600DF2971 /* iOSOsuEventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F3CE5E9C151D1D5A00BD69F3 /* Entity Classes */,
+				F3CE5E95151D189200BD69F3 /* All Events View */,
+				F3CE5E75151D03AE00BD69F3 /* Core Classes */,
 				F35FD6E4151C4A2800DF2971 /* Initial View */,
 				F35FD6AA151C46F600DF2971 /* edu_osuAppDelegate.h */,
 				F35FD6AB151C46F600DF2971 /* edu_osuAppDelegate.m */,
@@ -136,6 +162,7 @@
 		F35FD6A2151C46F600DF2971 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3CE5E7D151D09A200BD69F3 /* Images */,
 				F35FD6A3151C46F600DF2971 /* iOSOsuEventsApp-Info.plist */,
 				F35FD6A4151C46F600DF2971 /* InfoPlist.strings */,
 				F35FD6A7151C46F600DF2971 /* main.m */,
@@ -181,6 +208,55 @@
 				F35FD6B0151C46F600DF2971 /* edu_osuViewController.xib */,
 			);
 			name = "Initial View";
+			sourceTree = "<group>";
+		};
+		F3CE5E75151D03AE00BD69F3 /* Core Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE5E7A151D040C00BD69F3 /* AppManager.h */,
+				F3CE5E7B151D040C00BD69F3 /* AppManager.m */,
+			);
+			name = "Core Classes";
+			sourceTree = "<group>";
+		};
+		F3CE5E7D151D09A200BD69F3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE5EA6151D3FE000BD69F3 /* OOSL.png */,
+				F3CE5E8D151D135500BD69F3 /* twitter blue_button_highlight.png */,
+				F3CE5E8E151D135500BD69F3 /* twitter blue_button-highlight@2x.png */,
+				F3CE5E8F151D135500BD69F3 /* twitter blue_button.png */,
+				F3CE5E90151D135500BD69F3 /* twitter blue_button@2x.png */,
+				F3CE5E8B151D12AB00BD69F3 /* Background.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F3CE5E95151D189200BD69F3 /* All Events View */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE5E9B151D18E700BD69F3 /* Classes */,
+				F3CE5E98151D18E200BD69F3 /* AllEvents.xib */,
+			);
+			name = "All Events View";
+			sourceTree = "<group>";
+		};
+		F3CE5E9B151D18E700BD69F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE5E96151D18E200BD69F3 /* AllEvents.h */,
+				F3CE5E97151D18E200BD69F3 /* AllEvents.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F3CE5E9C151D1D5A00BD69F3 /* Entity Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE5E9D151D1E2400BD69F3 /* Event.h */,
+				F3CE5E9E151D1E2400BD69F3 /* Event.m */,
+			);
+			name = "Entity Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +312,13 @@
 			files = (
 				F35FD6A6151C46F600DF2971 /* InfoPlist.strings in Resources */,
 				F35FD6B2151C46F600DF2971 /* edu_osuViewController.xib in Resources */,
+				F3CE5E8C151D12AB00BD69F3 /* Background.jpg in Resources */,
+				F3CE5E91151D135500BD69F3 /* twitter blue_button_highlight.png in Resources */,
+				F3CE5E92151D135500BD69F3 /* twitter blue_button-highlight@2x.png in Resources */,
+				F3CE5E93151D135500BD69F3 /* twitter blue_button.png in Resources */,
+				F3CE5E94151D135500BD69F3 /* twitter blue_button@2x.png in Resources */,
+				F3CE5E9A151D18E200BD69F3 /* AllEvents.xib in Resources */,
+				F3CE5EA7151D3FE000BD69F3 /* OOSL.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +341,9 @@
 				F35FD6D3151C48BB00DF2971 /* ASIInputStream.m in Sources */,
 				F35FD6D4151C48BB00DF2971 /* ASINetworkQueue.m in Sources */,
 				F35FD6D7151C48CE00DF2971 /* Reachability.m in Sources */,
+				F3CE5E7C151D040C00BD69F3 /* AppManager.m in Sources */,
+				F3CE5E99151D18E200BD69F3 /* AllEvents.m in Sources */,
+				F3CE5E9F151D1E2400BD69F3 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +455,7 @@
 				F35FD6B7151C46F600DF2971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
