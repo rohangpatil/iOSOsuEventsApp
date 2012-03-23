@@ -22,13 +22,13 @@
 		F35FD69B151C46F600DF2971 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F35FD69D151C46F600DF2971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F35FD69F151C46F600DF2971 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F35FD6A3151C46F600DF2971 /* iOSOsuEventsApp-Info.plist */ = {isa = PBXFileReference; path = "iOSOsuEventsApp-Info.plist"; sourceTree = "<group>"; };
+		F35FD6A3151C46F600DF2971 /* iOSOsuEventsApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSOsuEventsApp-Info.plist"; sourceTree = "<group>"; };
 		F35FD6A5151C46F600DF2971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F35FD6A7151C46F600DF2971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F35FD6A9151C46F600DF2971 /* iOSOsuEventsApp-Prefix.pch */ = {isa = PBXFileReference; path = "iOSOsuEventsApp-Prefix.pch"; sourceTree = "<group>"; };
-		F35FD6AA151C46F600DF2971 /* edu_osuAppDelegate.h */ = {isa = PBXFileReference; path = edu_osuAppDelegate.h; sourceTree = "<group>"; };
+		F35FD6A9151C46F600DF2971 /* iOSOsuEventsApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSOsuEventsApp-Prefix.pch"; sourceTree = "<group>"; };
+		F35FD6AA151C46F600DF2971 /* edu_osuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = edu_osuAppDelegate.h; sourceTree = "<group>"; };
 		F35FD6AB151C46F600DF2971 /* edu_osuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = edu_osuAppDelegate.m; sourceTree = "<group>"; };
-		F35FD6AD151C46F600DF2971 /* edu_osuViewController.h */ = {isa = PBXFileReference; path = edu_osuViewController.h; sourceTree = "<group>"; };
+		F35FD6AD151C46F600DF2971 /* edu_osuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = edu_osuViewController.h; sourceTree = "<group>"; };
 		F35FD6AE151C46F600DF2971 /* edu_osuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = edu_osuViewController.m; sourceTree = "<group>"; };
 		F35FD6B1151C46F600DF2971 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/edu_osuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
