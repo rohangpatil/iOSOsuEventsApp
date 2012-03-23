@@ -24,7 +24,19 @@
     ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
     [request startSynchronous];
     NSString *response = [request responseString];
-    NSLog(@"The Received String: %@",response);
+    NSError *error;
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:[response dataUsingEncoding:   NSUTF8StringEncoding] options:kNilOptions error:&error];
+    NSDictionary *resultObj = [json objectForKey:@"result"];
+    
+    NSArray *data = [resultObj objectForKey:@"data"];
+    
+    for(NSDictionary *eventDetails in data){
+        NSString *firstName = [eventDetails objectForKey:@"name"];
+        NSString *lastName = [eventDetails objectForKey:@"location"];
+        NSString *fullName = [NSString stringWithFormat:@"%@ %@",firstName,lastName];
+        // NSLog(@"Full Name of %@ is %@ %@",studentId,firstName,lastName);
+        NSLog(@"%@",fullName);
+    }
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
