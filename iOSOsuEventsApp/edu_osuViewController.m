@@ -20,6 +20,11 @@
 
 - (void)viewDidLoad
 {
+    NSURL *url = [NSURL URLWithString:@"http://5.130.180.248:4567/get_events?num_events=5"];
+    ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+    [request startSynchronous];
+    NSString *response = [request responseString];
+    NSLog(@"The Received String: %@",response);
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
