@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ASIHTTPRequest.h"
+#import "EventsCell.h"
 
 @interface AllEvents : UIViewController <UITableViewDelegate,UITableViewDataSource>
 {

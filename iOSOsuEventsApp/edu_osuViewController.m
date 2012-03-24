@@ -42,7 +42,7 @@
 //        NSLog(@"%@",fullName);
 //    }
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Background.jpg"]];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"grunge.jpg"]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

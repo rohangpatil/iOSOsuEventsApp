@@ -94,27 +94,46 @@
 	
     Event *eventForCell = [[self eventsArray] objectAtIndex:[indexPath row]];
 	
-    static NSString *CellIdentifier = @"CellIdentifier";
-	
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil)
-    {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
-        
-    }
-	
-    // Do anything that COULD be different on each cell here.  Text, images, etc.
-    cell.textLabel.text=eventForCell.eventName;
-    cell.detailTextLabel.text=[NSString stringWithFormat:@"Location: %@",eventForCell.location];
-    cell.textLabel.font = [UIFont systemFontOfSize:15];
-    cell.textLabel.lineBreakMode=UILineBreakModeWordWrap;
-    cell.textLabel.numberOfLines=0;
-    if(![eventForCell.category compare:@"category 1"]){
-        cell.imageView.image = [UIImage imageNamed:@"OOSL.png"];
-    }
-	cell.textLabel.textColor = [UIColor whiteColor];
-    cell.detailTextLabel.textColor=[UIColor grayColor];
-    NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+//    static NSString *CellIdentifier = @"CellIdentifier";
+//	
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+//    if (cell == nil)
+//    {
+//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+//        
+//    }
+//	
+//    // Do anything that COULD be different on each cell here.  Text, images, etc.
+//    cell.textLabel.text=eventForCell.eventName;
+//    cell.detailTextLabel.text=[NSString stringWithFormat:@"Location: %@",eventForCell.location];
+//    cell.textLabel.font = [UIFont systemFontOfSize:15];
+//    cell.textLabel.lineBreakMode=UILineBreakModeWordWrap;
+//    cell.textLabel.numberOfLines=0;
+//    if(![eventForCell.category compare:@"category 1"]){
+//        cell.imageView.image = [UIImage imageNamed:@"OOSL.png"];
+//    }
+//	cell.textLabel.textColor = [UIColor whiteColor];
+//    cell.detailTextLabel.textColor=[UIColor grayColor];
+//    NSLog(@"<<< Leaving %s >>>", __PRETTY_FUNCTION__);
+
+    static NSString *cellIdenti = @"MyCell";
+       EventsCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdenti];
+        if (cell == nil)
+        {  
+            //cell = [[EventsCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:cellIdenti];
+
+            NSArray *tli = [[NSBundle mainBundle] loadNibNamed:@"EventsCell" owner:self options:nil];
+            for(id curObj in tli){
+                if([curObj isKindOfClass:[UITableViewCell class]]){
+                    cell = curObj;
+                    break;
+                }
+            }
+        }
+    cell.locationLable.text=eventForCell.location;
+    cell.eventTitle.text=eventForCell.eventName;
+    cell.catLable.text=eventForCell.category;
+    cell.inView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"cellback2.png"]];
     return cell;
     
 }
